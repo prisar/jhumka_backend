@@ -13,9 +13,9 @@ exports.getProducts = async function(req, res) {
     }
 }
 
-exports.getDetails = async function(req, res) {
+exports.getProductDetailsById = async function(req, res) {
     try {
-        let product = await ProductService.getProductDetails(req, res);
+        let product = await ProductService.getProductById(req, res);
         return res.json({
             status: 'success',
             results: product
