@@ -1,11 +1,11 @@
 module.exports = {
     host: 'db4free.net',
     user: 'jhumka',
-    dbPassword: 'Ril@1234',
+    dbPassword: '__',
     databaseName: 'jhumka',
     // orm
     host: 'db4free.net',
     username: 'jhumka',
-    password: 'Ril@1234',
+    password: '__',
     database: 'jhumka',
 };
